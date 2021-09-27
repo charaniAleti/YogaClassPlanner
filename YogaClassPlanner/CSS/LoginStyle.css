@@ -1,0 +1,124 @@
+﻿body *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    color:inherit;
+    /*border:2px solid blue;*/
+}
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;    
+}
+.Student-Teacher {
+    height: 560px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    overflow: hidden;
+    color:blue;
+    background-image: url('../Images/LgnImage.jpg');
+    /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.9979342078628326) 100%);*/
+}
+button{
+    margin-right:1em;
+    border:0px;
+    font-size:1.5em;
+    cursor:pointer;
+    background-color:transparent;
+    }
+button:focus{
+    outline:0px;
+}
+button.active {
+    padding-bottom: 15px;
+    border-bottom: solid 2px #94bbe9;
+}
+/*#forgot{
+    margin-left:auto;
+    margin-right:auto;
+    height:30px;
+    text-align:center;
+    position:relative;
+    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}*/
+.gbhome {
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.regLink {
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    margin-top:10px;
+    margin-top:10px;
+ }
+.nav{
+    width:100%;
+    height:100px;
+    margin-bottom:3em;
+    padding-top:40px;
+    opacity:1;
+}
+.forms .inputboxes{
+    padding-left:15px;
+    width:100%;
+    height:35px;
+    border:none;
+    border-radius:5px;
+    margin-bottom:20px;
+    background:rgba(255,255,255,.2);
+}
+/*.forms label{
+    text-transform:uppercase;
+}*/
+
+.submit-btn {
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-weight:700;
+    font-size:1em;
+    text-align:center;
+    padding:8px 0px;
+    margin-top:23px;
+    border-radius:20px;
+}
+/*form positioning*/
+form, #forgot, #gbhome{
+    position:relative;
+}
+
+div#StdLgnForm{
+    left:0px;
+}
+
+#stdLgnBtn, #TeachLgnBtn {
+    transition: all .5s ease;
+}
+
+div#TeachLgnForm {
+    left: 500px;
+    top: -230px;
+    opacity:0;
+    margin-top:-200px;
+}
+/*{
+    transition:all .5s ease;
+}*/
